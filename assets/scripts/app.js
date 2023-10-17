@@ -60,7 +60,7 @@ function divide() {
   console.log(enteredNumber5);
   let sum=enteredNumber *4+enteredNumber1 *4 +enteredNumber2 *3+enteredNumber3 *3 +enteredNumber4 *3
   +enteredNumber5 *1.5 +enteredNumber6*1.5;
-  let avg=sum/19;
+  let avg=sum/20;
   let m=avg.toFixed(2);
   createAndWriteOutput(m);
   
