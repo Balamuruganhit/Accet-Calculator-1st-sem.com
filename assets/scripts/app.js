@@ -56,10 +56,11 @@ function divide() {
   const enteredNumber4 = A(usrInput4.value);
   console.log(enteredNumber4);
   const enteredNumber5 = A(usrInput5.value);
+  const enteredNumber6=A(useInput6.value);
   console.log(enteredNumber5);
-  let sum=enteredNumber *3 +enteredNumber1 *4 +enteredNumber2 *4 +enteredNumber3 *4 +enteredNumber4 *1.5
-  +enteredNumber5 *2;
-  let avg=sum/18.5;
+  let sum=enteredNumber *4+enteredNumber1 *4 +enteredNumber2 *3+enteredNumber3 *3 +enteredNumber4 *3
+  +enteredNumber5 *1.5 +enteredNumber6*1.5;
+  let avg=sum/19;
   let m=avg.toFixed(2);
   createAndWriteOutput(m);
   
